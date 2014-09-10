@@ -1,0 +1,20 @@
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+<!-- MAKE SURE THE JS IS UNDER JS -->
+
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.slider').slick({
+            autoplay: true,
+            dots: true,
+            pauseOnHover: false,
+            speed: 2000,
+            infinite: true,
+            slidesToShow: 1,
+            fade: true,
+            arrows: false
+          });
+        });
+    </script>
